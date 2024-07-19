@@ -12,7 +12,7 @@ export function Header() {
             <div className="pesquisa">
                 <input type="text" id="pesquisa" placeholder="Pesquisar produtos..."></input>
             </div>
-            <div>
+            <div className="cadastro">
                 {/* <Link to='/cadastro'>Cadastre-se</Link> */}
                 <a id="cadastro" href=""><u>Cadastre-se</u></a>
             </div>
@@ -23,7 +23,7 @@ export function Header() {
             </div>
             <div>
             <a className="carrinho" href="">
-                <img src={Carrinho} alt=""/>
+                <img src={Carrinho} id="carrinho" alt=""/>
             </a>
             </div>
             </div>

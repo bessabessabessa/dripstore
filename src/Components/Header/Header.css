@@ -1,6 +1,6 @@
 .banner {
     display: flex;
-    border: 1px solid;
+    /* border: 1px solid; */
     margin: 20px 5%;
 }
 
@@ -20,6 +20,13 @@ input {
     border-radius: 8px;
     border: none;
     margin-right: 3rem;
+    color: var(--dark-gray-3)
+
+}
+
+.cadastro {
+    margin-right: 2rem;
+    margin-top: 13px;
 
 }
 
@@ -30,8 +37,7 @@ input {
     font-size: 16px;
     letter-spacing: 0.75px;
     font-weight: 400;
-    margin-right: 2rem;
-    margin-top: 10px;
+    
 }
 
 .btn,
@@ -43,6 +49,7 @@ input {
     background-color: var(--primary);
     transition: 0.5;
     margin-top: 3px;
+    /* margin-right: 3rem; */
     font-family: Inter;
     font-weight: 700;
     letter-spacing: 0.75px;
@@ -51,10 +58,7 @@ input {
 }
 
 #carrinho {
-    background-image: url(/src/assets/Images/carrinho.svg);
-    margin-left: 61rem;
-    width: 2rem;
-    height: 2rem;
-    margin-top: 8rem;
-    margin-right: 5rem;
+    margin-top: 0.7rem;
+    margin-left: 3rem;
+    
 }
