@@ -1,7 +1,8 @@
 import "./Header.css"
 import Logo from "../../assets/Images/logo.svg"
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 import Carrinho from "../../assets/Images/carrinho.svg"
+import Navbar from "../Navbar/Navbar"
 
 export function Header() {
 
@@ -27,6 +28,7 @@ export function Header() {
             </a>
             </div>
             </div>
+            <Navbar/>
         </>
     )
   }
