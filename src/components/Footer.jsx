@@ -1,5 +1,6 @@
 import React from "react";
 import './Footer.css'
+import './Footer.img'
 
 const Footer = () => {
   const rex = '(85) 3051-3411'
@@ -7,7 +8,7 @@ const Footer = () => {
     <footer className="footera">
       <div className="footer-section logo">
         <h2>Digital Store</h2>
-        <img src="" alt="" />
+        <img src="C:\Users\Myla\Documents\projetoDripStore\src\img\image.png" alt="" />
         <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
         </p>
