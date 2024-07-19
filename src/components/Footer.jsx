@@ -1,4 +1,8 @@
+import React from "react";
+import './Footer.css'
+
 const Footer = () => {
+  const rex = '(85) 3051-3411'
   return(
     <footer className="footera">
       <div className="footer-section logo">
@@ -8,9 +12,9 @@ const Footer = () => {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
         </p>
         <div className="icones">
-          <a href=""><i className="fab fa-facebook-f"></i></a>
-          <a href=""><i className="fab fa-instagram"></i></a>
-          <a href=""><i className="fab fa-twitter"></i></a>
+          <a href="#"><i className="fab fa-facebook-f"></i></a>
+          <a href="#"><i className="fab fa-instagram"></i></a>
+          <a href="#"><i className="fab fa-twitter"></i></a>
         </div>
       </div>
       <div className="footer-section info">
@@ -24,8 +28,23 @@ const Footer = () => {
           <li><a href="#">Meus Pedidos</a></li>
         </ul>
       </div>
-      <div>
-        
+      <div className="footer-section categories">
+        <h3>Categorias</h3>
+        <ul>
+          <li><a href="#">Camisetas</a></li>
+          <li><a href="#">Calças</a></li>
+          <li><a href="#">Bonés</a></li>
+          <li><a href="#">Headphones</a></li>
+          <li><a href="#">Tênis</a></li>
+        </ul>
+      </div>
+      <div className="footer-section contact">
+        <h3>Contato</h3>
+        <p>Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</p>
+        <p>{rex}</p>
+      </div>
+      <div className="footer-final">
+        <p>&copy; 2022 Digital College</p>
       </div>
     </footer>
     
