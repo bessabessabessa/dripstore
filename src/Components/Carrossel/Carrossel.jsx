@@ -1,4 +1,6 @@
-function Carrossel() {
+import React from "react";
+
+const Carrossel = () => {
     return (
         <section>
             <div id="propaganda">
@@ -8,10 +10,16 @@ function Carrossel() {
                 <button>Ver Ofertas</button>
             </div>
             <div id="carrrossel">
-                <img src="" alt="" />
-
+                <img src="" alt="" id="tenis"/>
+                <img src="" alt="" id="Ornamento"/>
+                <div id="check">
+                    <input type="checkbox" name="" id="" />
+                    <input type="checkbox" name="" id="" />
+                    <input type="checkbox" name="" id="" />
+                    <input type="checkbox" name="" id="" />
+                </div>
             </div>
         </section>
     )
-}
+};
 export default Carrossel;
