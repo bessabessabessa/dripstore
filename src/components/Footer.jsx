@@ -1,11 +1,10 @@
 import React from "react";
 import './Footer.css'
-import './Footer.img'
 
 const Footer = () => {
   const rex = '(85) 3051-3411'
   return(
-    <footer className="footera">
+    <footer className="footer">
       <div className="footer-section logo">
         <h2>Digital Store</h2>
         <img src="C:\Users\Myla\Documents\projetoDripStore\src\img\image.png" alt="" />
