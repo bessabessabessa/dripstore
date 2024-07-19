@@ -40,8 +40,7 @@ input {
     
 }
 
-.btn,
-.btn:hover {
+.btn {
     width: 7rem;
     height: 2.5rem;
     border-radius: 8px;
@@ -55,6 +54,12 @@ input {
     letter-spacing: 0.75px;
     text-align: center;
     color: var(--light-gray-3)
+}
+
+.btn:hover {
+    background-color: var(--tertiary);
+    transition: 0.5;
+    cursor: pointer;
 }
 
 #carrinho {
