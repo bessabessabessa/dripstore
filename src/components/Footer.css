@@ -32,12 +32,11 @@
 .icones {
     display: flex;
     gap: 2rem;  
-    border: solid rebeccapurple;  
+    cursor: pointer;
 }
 
-.i:hover {
-    fill: blue;
-
+.facebook {
+    width: 0.7rem;
 }
 
 
