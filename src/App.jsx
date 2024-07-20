@@ -1,10 +1,13 @@
-import Carrossel from "./Components/Carrossel/Carrossel"
+import './App.css';
+import HomePage from "./Pages/HomePage"
 
 function App() {
     return (
-        <div className="App">
-            <Carrossel/>
-        </div>
+        <>
+            <div className="App">
+                <HomePage/>
+            </div>
+        </>
     )
 };
 export default App;
