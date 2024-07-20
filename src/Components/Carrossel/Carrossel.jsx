@@ -1,24 +1,20 @@
 import React from "react";
+import './Carrossel.css'
+import Ornament from "../../assets/Carrossel/Ornament.png"
+import Sneakers from "../../assets/Carrossel/Sneakers.png"
 
 const Carrossel = () => {
     return (
         <section>
-            <div id="propaganda">
-                <h3>Melhores ofertas personalizadas</h3>
-                <h1>Queima de estoque Nike</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, eos! Sapiente quasi libero asperiores.</p>
-                <button>Ver Ofertas</button>
-            </div>
-            <div id="carrrossel">
-                <img src="" alt="" id="tenis"/>
-                <img src="" alt="" id="Ornamento"/>
-                <div id="check">
-                    <input type="checkbox" name="" id="" />
-                    <input type="checkbox" name="" id="" />
-                    <input type="checkbox" name="" id="" />
-                    <input type="checkbox" name="" id="" />
+            {/* <div id="ornamento"> */}
+                <div id="chamada">
+                    <h3>Melhores ofertas personalizadas</h3>
+                    <h1>Queima de stoque Nike 🔥</h1>
+                    <p>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
+                    <button>Ver Ofertas</button>
                 </div>
-            </div>
+                <img src={Ornament} alt="" id="imagemOnr" />
+            {/* </div> */}
         </section>
     )
 };
