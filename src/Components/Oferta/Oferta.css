@@ -1,0 +1,82 @@
+.oferta {
+    display: flex;
+}
+
+.imagensOferta1{
+    position: relative; 
+    top: 0; 
+    left :0;
+}
+
+.imagensOferta2{
+    position: absolute; 
+    top: 8.2rem; 
+    left: 1rem;
+}
+
+#ellipse {
+    width: 29rem;
+    height: 29rem;
+    margin-left: 6rem;
+    margin-top: 6rem;
+}
+
+#airjordan {
+    width: 35rem;
+    height: 20.5rem;
+}
+
+.text {
+    font-family: Inter;
+    margin-left: 6rem;
+    margin-top: 5rem;
+}
+
+#ofertaEspecial {
+    color: var(--primary);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.75x;
+    line-height: 50px;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: var(--dark-gray-2);
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    color: var(--dark-gray-2);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.75x;
+    line-height: 28px;
+    
+}
+
+button {
+    margin-top: 1rem;
+    color: var(--light-gray-3);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75x;
+    text-align: center;
+    background-color: var(--primary);
+    border-radius: 8px;
+    width: 12.5rem;
+    height: 2.5rem;
+    border: none;
+}
+
+button:hover {
+    background-color: var(--tertiary);
+    transition: 0.5;
+    cursor: pointer;
+}

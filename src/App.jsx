@@ -1,14 +1,13 @@
 import './App.css'
 import Header from "./Components/Header/Header"
-// import Navbar from '.'
+import { Oferta } from './Components/Oferta/Oferta'
 // import { Nav } from 'react-bootstrap'
 
 function App() {
 
   return (
     <>
-      <Header />
-      {/* <Navbar/> */}
+      
     </>
   )
 }
