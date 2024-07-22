@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.carrossel {
+    font-family: "Inter", sans-serif;
+    background-color: #F5F5F5;
+    width: 100vw;
+    height: 68.1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.divGeralCarrossel {
+    width: 144rem;
+    height: 68.1rem;
+}
+
+.div1Carrossel {
+
+    width: 144rem;
+    height: 60rem;
+    position: absolute;
+    z-index: 4;
+}
+
+.div2Carrossel {
+    width: 144rem;
+    height: 68.1rem;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.div3Carrossel {
+    width: 144rem;
+    height: 68.1rem;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.div4Carrossel {
+    width: 144rem;
+    height: 68.1rem;
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.chamada {
+    width: 51rem;
+    height: 35.2rem;
+    margin-top: 12.4rem;
+    margin-left: 10rem;
+}
+
+.chamada img {
+    width: 6.4rem;
+}
+
+.chamada h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    letter-spacing: 0.075rem;
+    color: #F6AA1C;
+}
+
+.chamada h1 {
+    font-size: 6.4rem;
+    font-weight: 800;
+    line-height: 6.6rem;
+    letter-spacing: 0.099rem;
+    color: #1F1F1F;
+    margin-top: 2rem;
+}
+
+.chamada p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3.4rem;
+    letter-spacing: 0.075rem;
+    color: #474747;
+    margin-top: 2rem;
+}
+
+.chamada button {
+    width: 22rem;
+    height: 4.8rem;
+    background-color: #C92071;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    letter-spacing: 0.075rem;
+    color: #F7F7FC;
+    margin-top: 4rem;
+    border-radius: 0.8rem;
+}
+
+.ornamento {
+    width: 14rem;
+    height: 14rem;
+    margin-top: 7.8rem;
+    margin-right: 3.4rem;
+}
+
+.tenis {
+    width: 83.505rem;
+    height: 65.02;
+    margin-top: 0.995rem;
+    margin-right: 9.17rem;
+    margin-bottom: 2.085rem;
+    margin-left: 51.325rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tenis img {
+    width: 73.351rem;
+    height: 43.161rem;
+    transform: rotate(-19.34deg);
+}
+
+.slide {
+    width: 7.8rem;
+    height: 1.2rem;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 5.3rem;
+}
