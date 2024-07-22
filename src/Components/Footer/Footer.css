@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    font-family: Inter;
+
+}
+
+.footer {
+    background-color: black;
+    margin-top: 0;
+    /* display: flex; */
+    width: 100vw;
+    height: 80vh;
+    color:var(--white);
+    /* justify-content: space-between; */
+    color: var(--white);
+    
+}
+
+.footer > div {
+    display: flex;
+    color: var(--white);
+}
+
+.footerDigital {
+    margin-top: 4rem;
+    margin-left: 4rem;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-right: 10rem;
+}
+
+#paragrafoDigital {
+    margin-top: 2rem;
+    color: var(--white);
+}
+
+#icone1 , #icone2 , #icone3 {
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.divInfos {
+    margin-top: 4rem;
+    /* margin-bottom: 8rem; */
+    
+}
+
+.divCategorias {
+    margin-top: 4rem;
+    margin-left: 6rem;
+
+}
+
+.divContato {
+    margin-top: 4rem;
+    margin-left: 6rem;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--white);
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+    color: var(--white);
+}
+
+.paragrafo1 {
+    margin-top: 2rem;
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+#textoAno {
+    text-align: center;
+    margin-top: 1rem;
+}
+
