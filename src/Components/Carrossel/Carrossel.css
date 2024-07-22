@@ -9,12 +9,12 @@
     justify-content: center;
 }
 
-.divGeral {
+.divGeralCarrossel {
     width: 144rem;
     height: 68.1rem;
 }
 
-.div1 {
+.div1Carrossel {
 
     width: 144rem;
     height: 60rem;
@@ -22,7 +22,7 @@
     z-index: 4;
 }
 
-.div2 {
+.div2Carrossel {
     width: 144rem;
     height: 68.1rem;
     position: absolute;
@@ -31,7 +31,7 @@
     flex-direction: row-reverse;
 }
 
-.div3 {
+.div3Carrossel {
     width: 144rem;
     height: 68.1rem;
     position: absolute;
@@ -40,7 +40,7 @@
     flex-direction: row-reverse;
 }
 
-.div4 {
+.div4Carrossel {
     width: 144rem;
     height: 68.1rem;
     position: absolute;
@@ -55,6 +55,10 @@
     height: 35.2rem;
     margin-top: 12.4rem;
     margin-left: 10rem;
+}
+
+.chamada img {
+    width: 6.4rem;
 }
 
 .chamada h3 {
