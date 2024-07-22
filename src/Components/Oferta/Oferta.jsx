@@ -3,7 +3,7 @@ import AirJordan from "../../assets/Images/air-jordan.svg"
 import Ellipse from "../../assets/Images/Ellipse-11.svg"
 
 
-export const Oferta = () => {
+const Oferta = () => {
 
     return (
         <div className="oferta">
@@ -22,3 +22,5 @@ export const Oferta = () => {
         </div>
     )
 }
+
+export default Oferta;
