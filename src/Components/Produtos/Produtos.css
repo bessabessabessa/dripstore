@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.produtos {
+    font-family: "Inter", sans-serif;
+    background-color: #F9F8FE;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12.3rem;
+}
