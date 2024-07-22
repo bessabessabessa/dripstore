@@ -7,3 +7,9 @@ html{
 	padding: 0;
 	border: 0;
 }
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
