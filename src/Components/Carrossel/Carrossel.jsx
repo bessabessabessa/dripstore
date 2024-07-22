@@ -5,7 +5,7 @@ import Sneakers from "../../assets/Carrossel/Sneakers.png"
 
 const Carrossel = () => {
     return (
-        <section>
+        <section class="carrossel">
             <div class="divGeral">
                 <div class="div1">
                     <div class="chamada" >
