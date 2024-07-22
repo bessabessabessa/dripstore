@@ -82,5 +82,7 @@ hr {
 #textoAno {
     text-align: center;
     margin-top: 1rem;
+    font-size: 13px;
+    font-weight: 400;
 }
 
