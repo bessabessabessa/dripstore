@@ -1,58 +1,93 @@
 .footer {
     display: flex;
-    align-items: start;
-    justify-content: space-around;    
-    border: solid rebeccapurple;
-
-}
-
-.footer div {
-    padding-left: 2rem;
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .footer-section {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    text-align: left;
-    width: 20%;
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 20px;
 }
 
 .logo {
+    height: max-content;
+}
+
+.logo2 {
+    width: 100%;
+}
+
+.footer-section p {
+    font-size: 1rem;
+    align-items: start;
+}
+
+.footer-section .icones {
+    margin-top: 10px;
+}
+
+/* .bloco {
     display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    padding: 0;
-} 
+    flex-flow: column;
+    align-items: start;
 
-.logo img {
-    width: 1.2rem;
+} */
+
+.footer-section .icones a {
+    margin-right: 1rem;
 }
 
-.icones {
+.footer-section .icones img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-section.info ul, .footer-section h3,
+.footer-section.categories ul {
+    list-style: none;
     display: flex;
-    gap: 2rem;  
-    cursor: pointer;
+    align-items: start;
+    flex-flow: column;
+    padding: 8px;
+    margin-left: 80px;
 }
 
-.facebook {
-    width: 0.7rem;
+.footer-section.info ul li, 
+.footer-section.categories ul li {
+    margin-bottom: 8px;
 }
 
+.footer-section.info ul li a,
+.footer-section.categories ul li a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section.info ul li a:hover,
+.footer-section.categories ul li a:hover {
+    color: #fff;
+}
+
+.footer-section.contact p {
+    font-size: 14px;
+    line-height: 1.6;
+}
 
 .footer-final {
-    flex-basis: 100%;
+    width: 100%;
     text-align: center;
-    margin-top: 20px;
     border-top: 1px solid #333;
+    margin-top: 20px;
     padding-top: 10px;
-  }
-  
-  @media (max-width: 768px) {
-    .footer-section {
-      flex-basis: 100%;
-      padding: 10px 0;
-    }
-  }
+}
 
-  
+.footer-final p {
+    color: #bbb;
+    margin: 0;
+}

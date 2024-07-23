@@ -8,8 +8,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-section">
         <div className="logo">
-          <h2>Digital Store</h2>
-          <img src={Logo} alt="" />
+          <img src={Logo} className="logo2" alt="" />
         </div>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
@@ -22,7 +21,7 @@ const Footer = () => {
       </div>
       <div className="footer-section info">
         <h3>Infomação</h3>
-        <ul>
+        <ul className="bloco">
           <li><a href="#">Sobre Drip Store</a></li>
           <li><a href="#">Segurança</a></li>
           <li><a href="#">Wishlist</a></li>
