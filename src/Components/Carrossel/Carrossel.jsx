@@ -6,10 +6,10 @@ import Fire from "../../assets/Carrossel/fire.png"
 
 const Carrossel = () => {
     return (
-        <section class="carrossel">
-            <div class="divGeralCarrossel">
-                <div class="div1Carrossel">
-                    <div class="chamada" >
+        <section className="carrossel">
+            <div className="divGeralCarrossel">
+                <div className="div1Carrossel">
+                    <div className="chamada" >
                         <h3>Melhores ofertas personalizadas</h3>
                         <h1>Queima de stoque Nike <img src={Fire} alt="" /></h1>
                         <p>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
@@ -17,12 +17,12 @@ const Carrossel = () => {
                     </div>
                 </div>
                 <div className="div2Carrossel">
-                    <div class="ornamento">
+                    <div className="ornamento">
                         <img src={Ornament} alt="" />
                     </div>
                 </div>
                 <div className="div3Carrossel">
-                    <div class="tenis">
+                    <div className="tenis">
                         <img src={Sneakers} alt="" />
                     </div>
                     {/* <div id="carouselExampleIndicators" className="carousel slide">
@@ -53,7 +53,7 @@ const Carrossel = () => {
                     </div> */}
                 </div>
                 <div className="div4Carrossel">
-                    <div class="slide">
+                    <div className="slide">
                         <input type="radio" name="redio" id="" />
                         <input type="radio" name="redio" id="" />
                         <input type="radio" name="redio" id="" />

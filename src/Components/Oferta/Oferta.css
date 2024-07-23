@@ -60,8 +60,13 @@ p {
     
 }
 
-button {
+#descricao-oferta{
+    color: var(--dark-gray-2);
     margin-top: 1rem;
+}
+
+button {
+    margin-top: 2rem;
     color: var(--light-gray-3);
     font-weight: 700;
     font-size: 14px;

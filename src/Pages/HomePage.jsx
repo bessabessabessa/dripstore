@@ -14,6 +14,8 @@ function HomePage() {
                 <Destaque/>
                 <Oferta/>
                 <Footer/>
+
+                
             </div>
         </>
     )

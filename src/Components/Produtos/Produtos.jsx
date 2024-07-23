@@ -1,11 +1,12 @@
 import React from "react";
-import './Profutos.css'
+import './Produtos.css'
+import BasicButtonExample from "../Dropdown/Dropdown";
 
-const Produtos = () => {
+function Produtos() {
     return (
-        <section class="produtos">
-            <div class="divGeralProdutos">
-                
+        <section className="produtos">
+            <div className="divGeralProdutos">
+                <BasicButtonExample/>
             </div>
         </section>
     )
