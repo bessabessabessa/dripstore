@@ -1,0 +1,8 @@
+.colecaoEmDestaqueP {
+    font-family: Inter;
+    font-size:1.5rem ;
+    font-weight: 700;
+    line-height:2.375rem ;
+    letter-spacing: 0.047rem;
+    color: var(--dark-gray-2);
+}

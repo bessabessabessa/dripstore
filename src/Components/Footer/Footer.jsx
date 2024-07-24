@@ -4,7 +4,7 @@ import IconFace from "../../assets/Images/icon-face.svg"
 import IconInta from "../../assets/Images/icon-insta.svg"
 import IconTwitter from "../../assets/Images/icon-twitter.svg"
 
-const Footer = () => {
+export default function Footer () {
 
   return (
     <>
@@ -48,6 +48,4 @@ const Footer = () => {
     </>
 
   );
-};
-
-export default Footer;
+}

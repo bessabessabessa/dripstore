@@ -1,5 +1,7 @@
 .oferta {
     display: flex;
+    width: 90rem;
+    border: 1px solid;
 }
 
 .imagensOferta1{
@@ -65,7 +67,7 @@ p {
     margin-top: 1rem;
 }
 
-button {
+#verOferta {
     margin-top: 2rem;
     color: var(--light-gray-3);
     font-weight: 700;
@@ -80,7 +82,7 @@ button {
     border: none;
 }
 
-button:hover {
+#verOferta:hover {
     background-color: var(--tertiary);
     transition: 0.5;
     cursor: pointer;
