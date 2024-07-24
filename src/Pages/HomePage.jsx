@@ -3,7 +3,7 @@ import Carrossel from "../Components/Carrossel/Carrossel";
 import Header from "../Components/Header/Header";
 import Oferta from "../Components/Oferta/Oferta";
 import Footer from "../Components/Footer/Footer";
-import Destaque from "../Components/Destaque1/Destaque1";
+import Destaque from "../Components/Destaque/Destaque";
 
 
 
@@ -13,7 +13,7 @@ function HomePage() {
             <div>
                 <Header/>
                 {/* <Carrossel/> */}
-                {/* <Destaque/> */}
+                <Destaque/>
                 <Oferta/>
                 <Footer/>
 
