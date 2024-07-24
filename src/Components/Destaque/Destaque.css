@@ -1,22 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
 .destaque {
     font-family: "Inter", sans-serif;
     background-color: #F9F8FE;
     width: 100vw;
     display: flex;
     justify-content: center;
-    ;
+
 }
 
 .divGeralDestaque {
-    width: 144rem;
+    width: 90rem;
 }
 
 .div1Destaque p {
-    font-size: 2.4rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    line-height: 3.8rem;
+    line-height: 2.375rem;
     letter-spacing: 0.075rem;
     color: #474747;
     margin-top: 3.8rem;
@@ -37,7 +35,7 @@
 } */
 
 .cardDestaque {
-    width: 40.5rem;
+    /* width: 40.5rem; */
     height: 25.1rem;
     background-color: #D8E3F2;
     border-radius: 0.7rem;
@@ -93,7 +91,7 @@
 }
 
 .cardImagem {
-    width: 24.2rem;
+    width: 25.313rem;
     height: 25.1rem;
     position: relative;
     margin-left: 16.3rem;

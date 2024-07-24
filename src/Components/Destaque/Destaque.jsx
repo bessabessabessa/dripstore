@@ -11,68 +11,64 @@ import Card3 from "../../assets/Destaque/card3.png"
 
 const Destaque = () => {
   return (
-    <section class="destaque">
-      <div class="divGeralDestaque">
-        <div class="div1Destaque">
+    <section className="section-destaque">
+      <div className="container">
+        <p>Coleções em destaque</p>
+        <div className="div2Destaque">
+          <div className="cardDestaque">
+            <div className="cardTexto">
+              <p>30% OFF</p>
+              <h3>Novo drop<br></br>Supreme</h3>
+              <button>Comprar</button>
+            </div>
+            <img src={Card1} alt="" className="cardImagem" />
+          </div>
+          <div className="cardDestaque">
+            <div className="cardTexto">
+              <div>
+                <p>30% OFF</p>
+              </div>
+              <h3>Novo drop<br></br>Supreme</h3>
+              <button>Comprar</button>
+            </div>
+            <img src={Card2} alt="" className="cardImagem" />
+          </div>
+          <div className="cardDestaque">
+            <div className="cardTexto">
+              <div>
+                <p>30% OFF</p>
+              </div>
+              <h3>Novo drop<br></br>Supreme</h3>
+              <button>Comprar</button>
+            </div>
+            <img src={Card3} alt="" className="cardImagem" />
+          </div>
+        </div>
+        {/* <div className="div3Destaque">
           <p>Coleções em destaque</p>
         </div>
-        <div class="div2Destaque">
-          <div class="cardDestaque">
-            <div class="cardTexto">
-              <div>
-                <p>30% OFF</p>
-              </div>
-              <h3>Novo drop<br></br>Supreme</h3>
-              <button>Comprar</button>
-            </div>
-            <img src={Card1} alt="" class="cardImagem"/>
-          </div>
-          <div class="cardDestaque">
-            <div class="cardTexto">
-              <div>
-                <p>30% OFF</p>
-              </div>
-              <h3>Novo drop<br></br>Supreme</h3>
-              <button>Comprar</button>
-            </div>
-            <img src={Card2} alt="" class="cardImagem"/>
-          </div>
-          <div class="cardDestaque">
-            <div class="cardTexto">
-              <div>
-                <p>30% OFF</p>
-              </div>
-              <h3>Novo drop<br></br>Supreme</h3>
-              <button>Comprar</button>
-            </div>
-            <img src={Card3} alt="" class="cardImagem"/>
-          </div>
-        </div>
-        <div class="div3Destaque">
-          <p>Coleções em destaque</p>
-        </div>
-        <div class="div4Destaque">
-          <div class="divFrame">
-            <div class="frame"><img src={Frame1} alt="" /></div>
+        <div className="div4Destaque">
+          <div className="divFrame">
+            <div className="frame"><img src={Frame1} alt="" /></div>
             <p>Camisetas</p>
           </div>
-          <div class="divFrame">
-            <div class="frame"><img src={Frame2} alt="" /></div>
+          <div className="divFrame">
+            <div className="frame"><img src={Frame2} alt="" /></div>
             <p>Calças</p>
           </div>
-          <div class="divFrame">
-            <div class="frame"><img src={Frame3} alt="" /></div>
+          <div className="divFrame">
+            <div className="frame"><img src={Frame3} alt="" /></div>
             <p>Bonés</p>
           </div>
-          <div class="divFrame">
-            <div class="frame"><img src={Frame4} alt="" /></div>
+          <div className="divFrame">
+            <div className="frame"><img src={Frame4} alt="" /></div>
             <p>Headphones</p>
           </div>
-          <div class="divFrame">
-            <div class="frame"><img src={Frame5} alt="" /></div>
+          <div className="divFrame">
+            <div className="frame"><img src={Frame5} alt="" /></div>
             <p>Tênis</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

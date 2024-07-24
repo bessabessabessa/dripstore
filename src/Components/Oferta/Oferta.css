@@ -7,7 +7,6 @@
 .oferta {
     display: flex;
     width: 90rem;
-    border: 1px solid;
     justify-content: space-between;
 }
 

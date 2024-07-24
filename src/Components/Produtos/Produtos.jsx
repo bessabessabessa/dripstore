@@ -6,7 +6,6 @@ function Produtos() {
     return (
         <section className="produtos">
             <div className="divGeralProdutos">
-                <BasicButtonExample/>
             </div>
         </section>
     )
