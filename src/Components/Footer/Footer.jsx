@@ -8,6 +8,7 @@ export default function Footer () {
 
   return (
     <>
+    <section className="section-footer">
       <div className="footer">
         <div>
           <div className="footerDigital">
@@ -45,6 +46,7 @@ export default function Footer () {
         <hr/>
         <p id="textoAno">&copy; 2022 - Digital College</p>
       </div>
+      </section>
     </>
 
   );

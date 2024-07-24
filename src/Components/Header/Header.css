@@ -1,15 +1,21 @@
 #section-header {
-    width: 90rem;
+    width: 100vw;
     box-sizing: border-box;
-    
+    display: flex;
+    justify-content: center;
 }
+
 .header {
+    width: 90rem;
     display: flex;
     justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     border: 1px solid;
-    margin-top: 2.125rem;
-    padding: 0 5%;
+    /* margin-top: 2.125rem; */
+    /* padding: 0 5%; */
     columns: 5;
+    /* margin: 2.125rem 6.25rem 0; */
 }
 
 #logo {
@@ -23,7 +29,7 @@
 
 .pesquisa {
     /* margin-right: 12rem; */
-    grid-template-columns: auto;
+    /* grid-template-columns: auto; */
 }
 
 input {
@@ -92,12 +98,19 @@ input {
     
 }
 
-#menu {
+.section-nav {
+    width: 100vw;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    background-color: palevioletred;
+}
+#menu {
+    width: 90rem;
+    display: flex;
+    justify-content: start;
     list-style-type: none;
     gap: 2rem;
-    padding: 0 5%;
+    /* padding: 0 5%; */
     margin-top: 4rem;
     border: 1px solid;
 }

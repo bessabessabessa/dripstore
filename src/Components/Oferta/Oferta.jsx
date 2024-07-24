@@ -6,6 +6,7 @@ import Ellipse from "../../assets/Images/Ellipse-11.svg"
 function Oferta () {
 
     return (
+        <section className="section-oferta">
         <div className="oferta">
             <div className="imagensOferta1">
                 <img id="ellipse" src={Ellipse} alt="Um ellipse na cor linear gradient"/>
@@ -20,6 +21,7 @@ function Oferta () {
                 <button id="verOferta">Ver Oferta</button>
             </div>
         </div>
+        </section>
     )
 }
 

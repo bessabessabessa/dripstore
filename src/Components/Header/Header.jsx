@@ -28,6 +28,7 @@ export function Header() {
                 </div>
             </div>
             </section>
+            <section className="section-nav">
             <nav className="menu">
                 <ul id="menu">
                 <Link to='/' id="home"><li>Home</li></Link>
@@ -36,6 +37,7 @@ export function Header() {
                 <Link to='/MeusPedidos' id="meus-pedidos"><li>Meus pedidos</li></Link>
                 </ul>
             </nav>
+            </section>
         </>
     )
 }

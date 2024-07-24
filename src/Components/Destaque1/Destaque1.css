@@ -1,44 +1,53 @@
 .section-destaque {
-    width: 90rem;
     background-color: aqua;
     font-family: Inter;
-    height: 16.25rem;
-    margin-bottom: 2rem;
+    /* height: 30rem;
+    margin: 6.25rem; */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
 
 }
 
+.divGeralDestaque {
+    width: 90rem;
+}
+
 #paragrafoEmDestaque {
-    padding: 0 5%;
+    /* width: 90rem; */
+    /* padding: 0 5%; */
     border: 1px solid;
 }
 
 .divDestaquePai {
-    /* width: 80rem; */
+    width: 90rem;
     display: flex;
-    justify-content: center;
-    border: 1px solid;
+    justify-content: space-between;
+    /* border: 1px solid; */
     height: 18.063rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     /* padding: 0 5%; */
     /* background-color: aqua; */
     font-family: Inter;
-    gap: 1rem;
+    /* gap: 1rem; */
     /* columns: 3;
     column-width: 23rem ; */
+    /* margin: 0 0; */
 }
 
 .divDestaquePromo1 {
     border: 1px solid;
-    /* width: 25.313rem; */
+    width: 25.313rem;
     background-color: #D8E3F2;
-    /* height: 18.063rem; */
-    padding: 0.313rem 0.938rem 0.313rem 0.938rem;
+    height: 15rem;
+    /* padding: 0.313rem 0.938rem 0.313rem 0.938rem; */
     border-radius: 0.5rem;
     border: none;
 }
 
 #descontoDestaque1 {
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     /* padding: 0.313rem 0.938rem 0.313rem 0.938rem; */
     font-size: 0.875rem;
     font-weight: 700;
@@ -53,21 +62,28 @@
 
 }
 
+#botao-comprar1 {
+}
+
+#camisaStarWars {
+    border: 1px solid pink;
+}
+
 
 .divDestaquePromo2 {
     border: 1px solid;
-    /* width: 25.313rem; */
+    width: 25.313rem;
     background-color: #D8E3F2;
-    /* height: 18.063rem; */
+    height: 15rem;
     border-radius: 0.5rem;
     border: none;
 }
 
 .divDestaquePromo3 {
     border: 1px solid;
-    /* width: 25.313rem; */
+    width: 25.313rem;
     background-color: #D8E3F2;
-    /* height: 18.063rem; */
+    height: 15rem;
     border-radius: 0.5rem;
     border: none;
 }
