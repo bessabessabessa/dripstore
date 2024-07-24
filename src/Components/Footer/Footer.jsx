@@ -4,10 +4,11 @@ import IconFace from "../../assets/Images/icon-face.svg"
 import IconInta from "../../assets/Images/icon-insta.svg"
 import IconTwitter from "../../assets/Images/icon-twitter.svg"
 
-const Footer = () => {
+export default function Footer () {
 
   return (
     <>
+    <section className="section-footer">
       <div className="footer">
         <div>
           <div className="footerDigital">
@@ -45,9 +46,8 @@ const Footer = () => {
         <hr/>
         <p id="textoAno">&copy; 2022 - Digital College</p>
       </div>
+      </section>
     </>
 
   );
-};
-
-export default Footer;
+}

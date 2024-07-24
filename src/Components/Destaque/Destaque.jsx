@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import './Destaque.css'
 import Group1 from "../../assets/Destaque/Group1.png"
 import Group2 from "../../assets/Destaque/Group2.png"

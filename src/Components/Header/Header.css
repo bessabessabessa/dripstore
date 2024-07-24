@@ -1,18 +1,36 @@
-.banner {
+#section-header {
+    width: 100vw;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
-    /* border: 1px solid; */
-    margin: 2rem;
+}
+
+.header {
+    width: 90rem;
+    display: flex;
+    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
+    border: 1px solid;
+    /* margin-top: 2.125rem; */
+    /* padding: 0 5%; */
+    columns: 5;
+    /* margin: 2.125rem 6.25rem 0; */
 }
 
 #logo {
-    margin-right: 1rem;
+    /* margin-right: 3rem; */
 
 }
 
-/* #logo:hover {
-    text-underline-position: auto;
-} */
+.logo {
+
+}
+
+.pesquisa {
+    /* margin-right: 12rem; */
+    /* grid-template-columns: auto; */
+}
 
 input {
     height: 3rem;
@@ -25,14 +43,16 @@ input {
     background-color: #F5F5F5;
     border-radius: 8px;
     border: none;
-    margin-right: 3rem;
-    color: var(--dark-gray-3)
+    /* margin-right: 3rem; */
+    color: var(--dark-gray-3);
+    /* margin-right: 30rem; */
 
 }
 
 .cadastro {
-    margin-right: 2rem;
+    /* margin-left: 12rem; */
     margin-top: 13px;
+    /* padding-right: 3rem; */
 
 }
 
@@ -43,6 +63,9 @@ input {
     font-size: 1rem;
     letter-spacing: 0.75px;
     font-weight: 400;
+    /* align-items:flex-start; */
+    /* margin-right: 8rem; */
+    /* text-align: center; */
     
 }
 
@@ -59,10 +82,11 @@ input {
     font-weight: 700;
     letter-spacing: 0.75px;
     text-align: center;
-    color: var(--light-gray-3)
+    color: var(--light-gray-3);
+    /* margin-right: 25rem; */
 }
 
-.btn:hover {
+.button1:hover {
     background-color: var(--tertiary);
     transition: 0.5;
     cursor: pointer;
@@ -70,17 +94,25 @@ input {
 
 #carrinho {
     margin-top: 0.7rem;
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
     
 }
 
-#menu {
+.section-nav {
+    width: 100vw;
     display: flex;
+    justify-content: center;
+    background-color: palevioletred;
+}
+#menu {
+    width: 90rem;
+    display: flex;
+    justify-content: start;
     list-style-type: none;
     gap: 2rem;
-    /* margin-left: 0; */
-    margin: 4rem 2rem;
-    /* align-items: start; */
+    /* padding: 0 5%; */
+    margin-top: 4rem;
+    border: 1px solid;
 }
 
 li {

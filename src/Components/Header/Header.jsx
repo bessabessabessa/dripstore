@@ -7,8 +7,11 @@ export function Header() {
 
     return (
         <>
-            <div className="banner">
+        <section id="section-header">
+            <div className="header">
+                <div className="logo">
                 <Link to='/'><img id="logo" src={Logo} alt="" /></Link>
+                </div>
                 <div className="pesquisa">
                     <input type="text" id="pesquisa" placeholder="Pesquisar produtos..."></input>
                 </div>
@@ -17,9 +20,6 @@ export function Header() {
                 </div>
                 <div>
                     <Link to='/login' className="button1"><button className="button1">Entrar</button></Link>
-                    {/* <a href="">
-                        <button className="btn">Entrar</button>
-                    </a> */}
                 </div>
                 <div>
                     <a className="carrinho" href="">
@@ -27,7 +27,9 @@ export function Header() {
                     </a>
                 </div>
             </div>
-            <nav>
+            </section>
+            <section className="section-nav">
+            <nav className="menu">
                 <ul id="menu">
                 <Link to='/' id="home"><li>Home</li></Link>
                 <Link to='/produtos' id="produtos"><li>Produtos</li></Link>
@@ -35,6 +37,7 @@ export function Header() {
                 <Link to='/MeusPedidos' id="meus-pedidos"><li>Meus pedidos</li></Link>
                 </ul>
             </nav>
+            </section>
         </>
     )
 }
