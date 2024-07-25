@@ -68,12 +68,11 @@ export const Detalhe = () => {
                 </div>
             </div>
             <div className="thumbnails">
+                <div><img src={Img1} alt=""/></div>
+                <div><img src={Img2} alt=""/></div>
                 <div></div>
                 <div></div>
                 <div></div>
-                <div></div>
-                <div></div>
-                    <img src={Img1} alt=""/>
                     <img src={Img2} alt=""/>
                     <img src={Img3} alt=""/>
                     <img src={Img4} alt=""/>
