@@ -1,26 +1,20 @@
 import './App.css';
-import HomePage from "./Pages/HomePage"
-import PaginaDeLogin from "./Pages/PaginaDeLogin"
+import HomePage from "./Pages/HomePage";
+import PaginaDeLogin from "./Pages/PaginaDeLogin";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Produtos from "./Components/Produtos/Produtos"
+import PaginaDeProdutos from "./Pages/ProductList";
 import Cadastro from './Pages/Cadastro';
 
-
-
-// const HomePage = () => <HomePage />
 
 function App() {
     return (
         <>
-            {/* <div className="App">
-                <HomePage />
-            </div> */}
 
             <BrowserRouter>
                 <Routes>
                     <Route index element={<HomePage />} />
                     <Route path="/login" element={<PaginaDeLogin />} />
-                    <Route path="/produtos" element={<Produtos />}/>
+                    <Route path="/produtos" element={<PaginaDeProdutos />}/>
                     <Route path="/cadastro" element={<Cadastro />}/>
                     {/* <Route path="/categorias" element={<PaginaDeLogin />}/> */}
                     {/* <Route path="/meusPedidos" element={<PaginaDeLogin />}/> */}
@@ -29,5 +23,5 @@ function App() {
             </BrowserRouter >
         </>
     )
-};
+}
 export default App;
