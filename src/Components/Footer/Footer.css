@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: var(--dark-gray);
     margin: 0;
 }
 
@@ -17,7 +17,8 @@
 
 .footer > div {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    /* gap: 14rem; */
     /* flex-direction: column; */
     color: var(--white);
     margin: 0;
@@ -27,11 +28,15 @@
     margin-top: 4rem;
     font-size: 1rem;
     font-weight: 300;
+    padding-right: 15rem;
 }
 
 #paragrafoDigital {
     margin-top: 2rem;
     color: var(--white);
+    line-height: 1.625rem;
+    font-family: Inter;
+    font-weight: 400;
 }
 
 .icones-redes {
@@ -45,13 +50,23 @@
     margin-top: 3rem;
 }
 
+.divFinalFooter {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    /* padding-right: 5rem; */
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
 .divInfos {
     margin-top: 4rem;
+    padding-right: 4rem;
     
 }
 
 .divCategorias {
     margin-top: 4rem;
+    padding-right: 1rem;
 
 }
 
@@ -59,21 +74,25 @@
     margin-top: 4rem;
 }
 
-h3 {
+.h3Footer {
     font-weight: 600;
     font-size: 18px;
     color: var(--white);
+    padding-bottom: 2rem;
 }
 
-p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 38px;
-    color: var(--white);
-}
 
 .paragrafo1 {
-    margin-top: 2rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625rem;
+    color: var(--white);
+    padding-bottom: 0.5rem;
+}
+
+/* trocar para text decoration quando trocar tag pra link */
+.paragrafo1:hover {
+    border-bottom: 1px solid var(--white);
 }
 
 hr {
@@ -90,5 +109,6 @@ hr {
     margin-top: 1rem;
     font-size: 13px;
     font-weight: 400;
+    padding-bottom: 3rem;
 }
 

@@ -13,6 +13,7 @@ body {
 }
 
 .breadcrumb {
+  /* width: 90rem; */
   font-size: 1.4rem;
   margin-bottom: 2rem;
 }
@@ -67,6 +68,7 @@ body {
 }
 
 .details {
+  width: 90rem;
   flex: 1;
 }
 
