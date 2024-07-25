@@ -36,11 +36,15 @@ body {
   border-radius: 1rem;
 }
 
+.Cor {
+  color: #C92071;
+
+}
+
 .thumbnails {
   display: flex;
-  align-items: center ;
   gap: 1rem;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 
 .thumbnails img {
@@ -94,11 +98,11 @@ body {
 }
 
 .current-price {
-  color:#474747;
+  color: #e60000;
 }
 
 .original-price {
-  color: #CCCCCC;
+  color: #888;
   text-decoration: line-through;
 }
 
@@ -120,7 +124,7 @@ body {
   width: 4rem;
   height: 4rem;
   border: 1px solid #ccc;
-  border-radius: 2rem;
+  border-radius: 0.5rem;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -129,15 +133,15 @@ body {
 }
 
 .size-option.selected, .color-option.selected {
-  color: #C92071;
+  border-color: #000;
 }
 
 .buy-button {
-  background-color: #FFB31F;
-  color:#F5F5F5;
+  background-color: #ffcc00;
+  color: #000;
   font-size: 2rem;
   padding: 1rem 2rem;
   border: none;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   cursor: pointer;
 }
