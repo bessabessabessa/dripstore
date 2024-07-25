@@ -19,30 +19,31 @@ export default function Footer () {
             <img id="icone2" src={IconInta} alt="" />
             <img id="icone3" src={IconTwitter} alt="" />
             </div>
-
           </div>
           
+          <div className="divFinalFooter">
           <div className="divInfos">
-            <h3>Informação</h3>
+            <h3 className="h3Footer">Informação</h3>
             <p className="paragrafo1">Sobre Drip Store</p>
-            <p>Segurança</p>
-            <p>Wishlist</p>
-            <p>Blog</p>
-            <p>Trabalhe Conosco</p>
-            <p>Meus pedidos</p>
+            <p className="paragrafo1">Segurança</p>
+            <p className="paragrafo1">Wishlist</p>
+            <p className="paragrafo1">Blog</p>
+            <p className="paragrafo1">Trabalhe Conosco</p>
+            <p className="paragrafo1">Meus pedidos</p>
           </div>
           <div className="divCategorias">
-            <h3>Categorias</h3>
+            <h3 className="h3Footer">Categorias</h3>
             <p className="paragrafo1">Camistas</p>
-            <p>Calças</p>
-            <p>Bonés</p>
-            <p>Headphones</p>
-            <p>Tênis</p>
+            <p className="paragrafo1">Calças</p>
+            <p className="paragrafo1">Bonés</p>
+            <p className="paragrafo1">Headphones</p>
+            <p className="paragrafo1">Tênis</p>
           </div>
           <div className="divContato">
-            <h3>Contato</h3>
+            <h3 className="h3Footer">Contato</h3>
             <p className="paragrafo1">Av. Santos Dumont, 1510 - 1<br /> andar - Aldeota, Fortaleza-<br />CE, 60150-161</p>
-            <p>(85) 3051-3411</p>
+            <p className="paragrafo1">(85) 3051-3411</p>
+            </div>
           </div>
         </div>
 
