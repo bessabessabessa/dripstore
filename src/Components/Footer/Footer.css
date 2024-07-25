@@ -97,9 +97,9 @@
 }
 
 /* trocar para text decoration quando trocar tag pra link */
-.paragrafo1:hover {
-    /* border-bottom: 1px solid var(--white); */
-}
+/* .paragrafo1:hover {
+    border-bottom: 1px solid var(--white);
+} */
 
 hr {
     margin: auto;
