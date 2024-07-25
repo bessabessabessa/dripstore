@@ -12,7 +12,7 @@ function HomePage() {
         <>
             <div>
                 <Header/>
-                <Carrossel/>
+                {/* <Carrossel/> */}
                 <Destaque/>
                 <Produtos />
                 <Oferta/>
