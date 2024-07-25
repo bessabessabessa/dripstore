@@ -8,8 +8,7 @@
     display: flex;
     width: 90rem;
     justify-content: space-around;
-    gap: 10rem;
-    border: 1px solid;
+    gap: 8rem;
 }
 
 .imagensOferta1{

@@ -64,7 +64,7 @@ export default function Destaque() {
 
                     <div className="destaqueColecoes1">
                         <div className="divImagem">
-                            <img src={Camisa} className="colecoes" />
+                            <img src={Calça} className="colecoes" />
                         </div>
                         <p className="itensDestaque">Bonés</p>
                     </div>

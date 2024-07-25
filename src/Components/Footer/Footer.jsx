@@ -1,8 +1,8 @@
 import './Footer.css'
-import LogoWhite from "../../assets/Images/logo-white.svg"
-import IconFace from "../../assets/Images/icon-face.svg"
-import IconInta from "../../assets/Images/icon-insta.svg"
-import IconTwitter from "../../assets/Images/icon-twitter.svg"
+import LogoWhite from "../../assets/Footer/logo-white.svg"
+import IconFace from "../../assets/Footer/icon-face.svg"
+import IconInta from "../../assets/Footer/icon-insta.svg"
+import IconTwitter from "../../assets/Footer/icon-twitter.svg"
 
 export default function Footer () {
 

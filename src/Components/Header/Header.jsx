@@ -1,7 +1,7 @@
 import "./Header.css"
-import Logo from "../../assets/Images/logo.svg"
+import Logo from "../../assets/Header/logo.svg"
 import { Link } from "react-router-dom"
-import Carrinho from "../../assets/Images/carrinho.svg"
+import Carrinho from "../../assets/Header/carrinho.svg"
 
 export function Header() {
 

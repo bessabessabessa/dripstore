@@ -1,6 +1,6 @@
 import './Oferta.css'
-import AirJordan from "../../assets/Images/air-jordan.svg"
-import Ellipse from "../../assets/Images/Ellipse-11.svg"
+import AirJordan from "../../assets/Oferta/air-jordan.svg"
+import Ellipse from "../../assets/Oferta/Ellipse-11.svg"
 
 
 function Oferta() {
