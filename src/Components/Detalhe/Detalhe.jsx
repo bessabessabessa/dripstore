@@ -74,7 +74,7 @@ function Detalhe() {
                 <div><img src={Img3} alt=""/></div>
                 <div><img src={Img4} alt=""/></div>
                 <div><img src={Img5} alt=""/></div>
-                </div>
+            </div>
         </div>
     );
 };

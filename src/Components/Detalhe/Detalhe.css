@@ -1,6 +1,6 @@
-:root {
+/* :root {
   font-size: 62.5%;
-}
+} */
 
 body {
   font-family: Arial, sans-serif;
@@ -38,8 +38,9 @@ body {
 
 .thumbnails {
   display: flex;
+  align-items: center ;
   gap: 1rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .thumbnails img {
