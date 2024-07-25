@@ -7,8 +7,9 @@
 .oferta {
     display: flex;
     width: 90rem;
+    justify-content: space-around;
+    gap: 10rem;
     border: 1px solid;
-    justify-content: space-between;
 }
 
 .imagensOferta1{
@@ -25,15 +26,15 @@
 }
 
 #ellipse {
-    width: 29rem;
-    height: 29rem;
+    /* width: 29rem;
+    height: 29rem; */
     margin-left: 6rem;
     margin-top: 6rem;
 }
 
 #airjordan {
-    width: 35rem;
-    height: 20.5rem;
+    /* width: 35rem;
+    height: 20.5rem; */
 }
 
 .text {
@@ -48,10 +49,11 @@
     font-weight: 700;
     letter-spacing: 0.75x;
     line-height: 1.375rem;
-    margin-bottom: 0;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
 }
 
-h2 {
+#h2Oferta {
     color: var(--dark-gray-2);
     font-weight: 700;
     font-size: 3rem;
@@ -61,22 +63,17 @@ h2 {
     margin-bottom: 0;
 }
 
-p {
+#descricao-oferta{
     color: var(--dark-gray-2);
+    margin-top: 1rem;
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 0.75x;
     line-height: 28px;
-    
-}
-
-#descricao-oferta{
-    color: var(--dark-gray-2);
-    margin-top: 1rem;
 }
 
 #verOferta {
-    margin-top: 2rem;
+    margin-top: 1rem;
     color: var(--light-gray-3);
     font-weight: 700;
     font-size: 14px;

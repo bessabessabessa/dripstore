@@ -1,21 +1,27 @@
 // import Carrossel from "../Components/Carrossel/Carrossel";
-// // import Destaque from "../Components/Destaque/Destaque";
-// import Header from "../Components/Header/Header";
-// import Oferta from "../Components/Oferta/Oferta";
+import Header from "../Components/Header/Header";
+import Oferta from "../Components/Oferta/Oferta";
 // import Footer from "../Components/Footer/Footer";
-// import Destaque from "../Components/Destaque/Destaque";
-import Confirmacao from "../Components/ConfirmacaoDeCompra/Confirmacao";
+// import Produtos from "../Components/Produtos/Produtos";
+import Produtos from "../Components/Produtos1/Produtos"
+import Destaque from "../Components/Destaque1/Destaque"
+
 
 
 function HomePage() {
     return (
         <>
             <div>
-                <Confirmacao />
-
-                
+                <Header/>
+                {/* <Carrossel/> */}
+                <Destaque/>
+                {/* <Produtos /> */}
+                <Produtos />
+                <Oferta/>
+                {/* <Footer/> */}
             </div>
         </>
     )
 }
+
 export default HomePage;
