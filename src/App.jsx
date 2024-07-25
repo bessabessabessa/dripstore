@@ -6,7 +6,6 @@ import Produtos from "./Components/Produtos/Produtos"
 import Cadastro from './Pages/Cadastro';
 
 
-
 // const HomePage = () => <HomePage />
 
 function App() {
@@ -25,6 +24,7 @@ function App() {
                     {/* <Route path="/categorias" element={<PaginaDeLogin />}/> */}
                     {/* <Route path="/meusPedidos" element={<PaginaDeLogin />}/> */}
                     {/* <Route path="*" element={<NoPage />} /> */}
+                    <Route path="/Confirmacao" element={<ConfirmacaoDeCompra />} />
                 </Routes>
             </BrowserRouter >
         </>
