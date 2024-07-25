@@ -28,7 +28,14 @@ body {
 }
 
 .image-gallery {
-  flex: 1;
+  display: flex;
+  width: 700.73px;
+  height: 571px;
+  top: 274px;
+  left: 100px;
+  border-radius: 4px;
+  align-items: center;
+  background-color: #E2E3FF; ;
 }
 
 .main-image {
@@ -36,9 +43,13 @@ body {
   border-radius: 1rem;
 }
 
-.Cor {
-  color: #C92071;
-
+.tamanho {
+  border: solid rebeccapurple;
+  width: 117.81rem;
+  height: 96px;
+  top: 865px;
+  left: 100px;
+  border-radius: 4px;
 }
 
 .thumbnails {
@@ -121,7 +132,27 @@ body {
   gap: 1rem;
 }
 
-.size-option, .color-option {
+.sizes h2 {
+  color: #8F8F8F;
+}
+
+.size-option {
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+
+.colors h2 {
+  color: #8F8F8F;
+}
+
+.color-option {
   width: 4rem;
   height: 4rem;
   border: 1px solid #ccc;
@@ -133,9 +164,9 @@ body {
   font-size: 1.6rem;
 }
 
-.size-option.selected, .color-option.selected {
-  color: #C92071;
-}
+ .size-option.selected, .color-option.selected {
+  background-color:#C92071;;
+} 
 
 .buy-button {
   background-color: #FFB31F;

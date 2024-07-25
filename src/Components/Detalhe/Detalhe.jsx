@@ -10,7 +10,20 @@ import Img5 from "../../assets/Carrossel/image5.png"
 function Detalhe() {
     const [selectedSize] = useState(41);
     const [selectedColor] = useState('red');
-    
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+    const images = [Sneakers, Img1, Img2, Img3, Img4, Img5];
+
+    const handlePrevClick = () => {
+        const newIndex = (currentImageIndex - 1 + images.length) % images.length;
+        setCurrentImageIndex(newIndex);
+    };
+
+    const handleNextClick = () => {
+        const newIndex = (currentImageIndex + 1) % images.length;
+        setCurrentImageIndex(newIndex);
+    };
+
     return (
         <div className='container'>
             <nav className='breadcrumb'>
@@ -18,7 +31,9 @@ function Detalhe() {
             </nav>
             <div className='product'>
                 <div className='image-gallery'>
-                    <img src={Sneakers} alt="Tênis Nike Revolution 6 Next Nature Masculino" className='main-image' />
+                    <button className="prev" onClick={handlePrevClick}>&lt;</button>
+                    <img src={images[currentImageIndex]} alt="Tênis Nike Revolution 6 Next Nature Masculino" className='main-image' />
+                    <button className="next" onClick={handleNextClick}>&gt;</button>
                 </div>
                
                 <div className='details'>
@@ -69,7 +84,7 @@ function Detalhe() {
                 </div>
             </div>
             <div className="thumbnails">
-                <div className='cor'><img src={Img1} alt=""/></div>
+                <div><img src={Img1} alt="" className="tamanho"/></div>
                 <div><img src={Img2} alt=""/></div>
                 <div><img src={Img3} alt=""/></div>
                 <div><img src={Img4} alt=""/></div>
