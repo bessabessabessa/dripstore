@@ -4,8 +4,8 @@ import PaginaDeLogin from "./Pages/PaginaDeLogin";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PaginaDeProdutos from "./Pages/ProductList";
 import Cadastro from './Pages/Cadastro';
-
 import ProductDetail from './Pages/ProductDetail';
+import ConfirmacaoDeCompra from "./Pages/ConfirmacaoDeCompra";
 
 
 function App() {
@@ -19,11 +19,8 @@ function App() {
                     <Route path="/produtos" element={<PaginaDeProdutos />}/>
                     <Route path="/cadastro" element={<Cadastro />}/>
                     <Route path="/detalhesDoProduto" element={<ProductDetail />}/>
-
-                    {/* <Route path="/categorias" element={<PaginaDeLogin />}/> */}
-                    {/* <Route path="/meusPedidos" element={<PaginaDeLogin />}/> */}
-                    {/* <Route path="*" element={<NoPage />} /> */}
-                    <Route path="/Confirmacao" element={<ConfirmacaoDeCompra />} />
+                    <Route path="/ConfirmacaoDeCompra" element={<ConfirmacaoDeCompra />} />
+                    
                 </Routes>
             </BrowserRouter >
         </>
