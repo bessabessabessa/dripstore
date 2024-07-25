@@ -1,32 +1,32 @@
-*{
+.section-footer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
     margin: 0;
-    font-family: Inter;
-
 }
 
 .footer {
-    background-color: black;
-    margin-top: 0;
-    /* display: flex; */
-    width: 100vw;
-    height: 80vh;
+    font-family: Inter;
+    margin: 0;
+    width: 90rem;
     color:var(--white);
-    /* justify-content: space-between; */
-    color: var(--white);
     
 }
 
 .footer > div {
     display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
     color: var(--white);
+    margin: 0;
 }
 
 .footerDigital {
     margin-top: 4rem;
-    margin-left: 4rem;
     font-size: 1rem;
     font-weight: 300;
-    margin-right: 10rem;
 }
 
 #paragrafoDigital {
@@ -34,26 +34,29 @@
     color: var(--white);
 }
 
+.icones-redes {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    gap: 2rem;
+}
+
 #icone1 , #icone2 , #icone3 {
     margin-top: 3rem;
-    margin-left: 2rem;
 }
 
 .divInfos {
     margin-top: 4rem;
-    /* margin-bottom: 8rem; */
     
 }
 
 .divCategorias {
     margin-top: 4rem;
-    margin-left: 6rem;
 
 }
 
 .divContato {
     margin-top: 4rem;
-    margin-left: 6rem;
 }
 
 h3 {
@@ -74,9 +77,12 @@ p {
 }
 
 hr {
-    width: 90%;
     margin: auto;
     margin-top: 3rem;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #textoAno {
