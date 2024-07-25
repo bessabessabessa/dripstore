@@ -6,6 +6,7 @@ import PaginaDeProdutos from "./Pages/ProductList";
 import Cadastro from './Pages/Cadastro';
 
 import ProductDetail from './Pages/ProductDetail';
+import Confirmacao from './Pages/ConfirmacaoDeCompra';
 
 
 function App() {
