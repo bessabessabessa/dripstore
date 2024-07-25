@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import './Detalhe.css';
 import Sneakers from "../../assets/Carrossel/Sneakers.png"
+import Img1 from "../../assets/Carrossel/image1.png"
+import Img2 from "../../assets/Carrossel/image2.png"
+import Img3 from "../../assets/Carrossel/image3.png"
+import Img4 from "../../assets/Carrossel/image4.png"
+import Img5 from "../../assets/Carrossel/image5.png"
 
 export const Detalhe = () => {
     const [selectedSize] = useState(41);
@@ -14,9 +19,7 @@ export const Detalhe = () => {
                 <div className='image-gallery'>
                     <img src={Sneakers} alt="Tênis Nike Revolution 6 Next Nature Masculino" className='main-image' />
                 </div>
-                <div className="thumbnails">
-
-                </div>
+               
                 <div className='details'>
                     <h1>Tênis Nike Revolution 6 Next Nature Masculino</h1>
                     <p className='category'>Casual | Nike | REF: 38416711</p>
@@ -51,7 +54,7 @@ export const Detalhe = () => {
                     <div className='colors'>
                         <h2>Cor</h2>
                         <div className='color-options'>
-                            {['blue', 'red', 'black', 'grey', 'purple'].map(color => (
+                            {['#6FEEFF', '#FF6969', '#5E5E5E', '#6D70B7'].map(color => (
                                 <button
                                     key={color}
                                     className={`color-option ${selectedColor === color ? 'selected' : ''}`}
@@ -64,6 +67,18 @@ export const Detalhe = () => {
                     <button className='buy-button'>COMPRAR</button>
                 </div>
             </div>
+            <div className="thumbnails">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                    <img src={Img1} alt=""/>
+                    <img src={Img2} alt=""/>
+                    <img src={Img3} alt=""/>
+                    <img src={Img4} alt=""/>
+                    <img src={Img5} alt=""/>
+                </div>
         </div>
     );
 };
