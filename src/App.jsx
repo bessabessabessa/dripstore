@@ -5,6 +5,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PaginaDeProdutos from "./Pages/ProductList";
 import Cadastro from './Pages/Cadastro';
 
+import ProductDetail from './Pages/ProductDetail';
+
 
 function App() {
     return (
@@ -16,6 +18,8 @@ function App() {
                     <Route path="/login" element={<PaginaDeLogin />} />
                     <Route path="/produtos" element={<PaginaDeProdutos />}/>
                     <Route path="/cadastro" element={<Cadastro />}/>
+                    <Route path="/detalhesDoProduto" element={<ProductDetail />}/>
+
                     {/* <Route path="/categorias" element={<PaginaDeLogin />}/> */}
                     {/* <Route path="/meusPedidos" element={<PaginaDeLogin />}/> */}
                     {/* <Route path="*" element={<NoPage />} /> */}
