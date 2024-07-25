@@ -3,6 +3,7 @@ import LogoWhite from "../../assets/Footer/logo-white.svg"
 import IconFace from "../../assets/Footer/icon-face.svg"
 import IconInta from "../../assets/Footer/icon-insta.svg"
 import IconTwitter from "../../assets/Footer/icon-twitter.svg"
+import { Link } from "react-router-dom"
 
 export default function Footer () {
 
@@ -24,20 +25,20 @@ export default function Footer () {
           <div className="divFinalFooter">
           <div className="divInfos">
             <h3 className="h3Footer">Informação</h3>
-            <p className="paragrafo1">Sobre Drip Store</p>
-            <p className="paragrafo1">Segurança</p>
-            <p className="paragrafo1">Wishlist</p>
-            <p className="paragrafo1">Blog</p>
-            <p className="paragrafo1">Trabalhe Conosco</p>
-            <p className="paragrafo1">Meus pedidos</p>
+            <a href="#" className="paragrafo1">Sobre Drip Store</a>
+            <a href="#" className="paragrafo1">Segurança</a>
+            <a href="#" className="paragrafo1">Wishlist</a>
+            <a href="#" className="paragrafo1">Blog</a>
+            <a href="#" className="paragrafo1">Trabalhe Conosco</a>
+            <Link to="/MeusPedidos"> <p className="paragrafo1">Meus pedidos</p></Link>
           </div>
           <div className="divCategorias">
             <h3 className="h3Footer">Categorias</h3>
-            <p className="paragrafo1">Camistas</p>
-            <p className="paragrafo1">Calças</p>
-            <p className="paragrafo1">Bonés</p>
-            <p className="paragrafo1">Headphones</p>
-            <p className="paragrafo1">Tênis</p>
+            <a href="#" className="paragrafo1">Camistas</a>
+            <a href="#" className="paragrafo1">Calças</a>
+            <a href="#" className="paragrafo1">Bonés</a>
+            <a href="#" className="paragrafo1">Headphones</a>
+            <a href="#" className="paragrafo1">Tênis</a>
           </div>
           <div className="divContato">
             <h3 className="h3Footer">Contato</h3>

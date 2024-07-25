@@ -28,7 +28,7 @@
     margin-top: 4rem;
     font-size: 1rem;
     font-weight: 300;
-    padding-right: 15rem;
+    /* padding-right: 15rem; */
 }
 
 #paragrafoDigital {
@@ -53,7 +53,7 @@
 .divFinalFooter {
     display: flex;
     justify-content: center;
-    gap: 8rem;
+    /* gap: 8rem; */
     /* padding-right: 5rem; */
     padding-bottom: 1rem;
     padding-right: 1rem;
@@ -61,12 +61,17 @@
 .divInfos {
     margin-top: 4rem;
     padding-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
     
 }
 
 .divCategorias {
     margin-top: 4rem;
-    padding-right: 1rem;
+    /* padding-right: 1rem; */
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -88,11 +93,12 @@
     line-height: 1.625rem;
     color: var(--white);
     padding-bottom: 0.5rem;
+    text-decoration: none;
 }
 
 /* trocar para text decoration quando trocar tag pra link */
 .paragrafo1:hover {
-    border-bottom: 1px solid var(--white);
+    /* border-bottom: 1px solid var(--white); */
 }
 
 hr {
