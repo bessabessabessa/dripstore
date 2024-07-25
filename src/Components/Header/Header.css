@@ -18,7 +18,7 @@
     width: 30rem;
     padding-left: 1rem;
     margin-top: 0;
-    background-image: url(/src/assets/Images/lupa.svg);
+    background-image: url(/src/assets/Header/lupa.svg);
     background-repeat: no-repeat;
     background-position: calc(100% - 10px) center;
     background-color: #F5F5F5;

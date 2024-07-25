@@ -1,6 +1,6 @@
-
+import UncontrolledExample from "../Components/Carrossel1/Carrossel"
 export default function Cadastro () {
     return (
-        <h1>Cadastro works!</h1>
+        <UncontrolledExample />
     );
 }

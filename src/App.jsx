@@ -6,6 +6,7 @@ import PaginaDeProdutos from "./Pages/ProductList";
 import Cadastro from './Pages/Cadastro';
 import ProductDetail from './Pages/ProductDetail';
 import ConfirmacaoDeCompra from "./Pages/ConfirmacaoDeCompra";
+import MeuCarrinho from "./Pages/MeuCarrinho";
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
                     <Route path="/cadastro" element={<Cadastro />}/>
                     <Route path="/detalhesDoProduto" element={<ProductDetail />}/>
                     <Route path="/ConfirmacaoDeCompra" element={<ConfirmacaoDeCompra />} />
+                    <Route path="/MeuCarrinho" element={<MeuCarrinho />}/>
+
                     
                 </Routes>
             </BrowserRouter >

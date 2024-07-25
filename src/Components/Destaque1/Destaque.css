@@ -147,6 +147,10 @@
     align-items: center;
 }
 
+.divImagem:hover {
+    transform: scale(1.2);
+}
+
 .itensDestaque {
     display: flex;
     justify-content: center;

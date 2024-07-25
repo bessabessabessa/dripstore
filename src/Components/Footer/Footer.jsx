@@ -1,8 +1,9 @@
 import './Footer.css'
-import LogoWhite from "../../assets/Images/logo-white.svg"
-import IconFace from "../../assets/Images/icon-face.svg"
-import IconInta from "../../assets/Images/icon-insta.svg"
-import IconTwitter from "../../assets/Images/icon-twitter.svg"
+import LogoWhite from "../../assets/Footer/logo-white.svg"
+import IconFace from "../../assets/Footer/icon-face.svg"
+import IconInta from "../../assets/Footer/icon-insta.svg"
+import IconTwitter from "../../assets/Footer/icon-twitter.svg"
+import { Link } from "react-router-dom"
 
 export default function Footer () {
 
@@ -19,30 +20,31 @@ export default function Footer () {
             <img id="icone2" src={IconInta} alt="" />
             <img id="icone3" src={IconTwitter} alt="" />
             </div>
-
           </div>
           
+          <div className="divFinalFooter">
           <div className="divInfos">
-            <h3>Informação</h3>
-            <p className="paragrafo1">Sobre Drip Store</p>
-            <p>Segurança</p>
-            <p>Wishlist</p>
-            <p>Blog</p>
-            <p>Trabalhe Conosco</p>
-            <p>Meus pedidos</p>
+            <h3 className="h3Footer">Informação</h3>
+            <a href="#" className="paragrafo1">Sobre Drip Store</a>
+            <a href="#" className="paragrafo1">Segurança</a>
+            <a href="#" className="paragrafo1">Wishlist</a>
+            <a href="#" className="paragrafo1">Blog</a>
+            <a href="#" className="paragrafo1">Trabalhe Conosco</a>
+            <Link to="/MeusPedidos"> <p className="paragrafo1">Meus pedidos</p></Link>
           </div>
           <div className="divCategorias">
-            <h3>Categorias</h3>
-            <p className="paragrafo1">Camistas</p>
-            <p>Calças</p>
-            <p>Bonés</p>
-            <p>Headphones</p>
-            <p>Tênis</p>
+            <h3 className="h3Footer">Categorias</h3>
+            <a href="#" className="paragrafo1">Camistas</a>
+            <a href="#" className="paragrafo1">Calças</a>
+            <a href="#" className="paragrafo1">Bonés</a>
+            <a href="#" className="paragrafo1">Headphones</a>
+            <a href="#" className="paragrafo1">Tênis</a>
           </div>
           <div className="divContato">
-            <h3>Contato</h3>
+            <h3 className="h3Footer">Contato</h3>
             <p className="paragrafo1">Av. Santos Dumont, 1510 - 1<br /> andar - Aldeota, Fortaleza-<br />CE, 60150-161</p>
-            <p>(85) 3051-3411</p>
+            <p className="paragrafo1">(85) 3051-3411</p>
+            </div>
           </div>
         </div>
 
