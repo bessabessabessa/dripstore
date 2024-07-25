@@ -1,9 +1,9 @@
-:root {
+/* :root {
   font-size: 62.5%;
-}
+} */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Inter, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -38,8 +38,9 @@ body {
 
 .thumbnails {
   display: flex;
+  align-items: center ;
   gap: 1rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .thumbnails img {
@@ -93,11 +94,11 @@ body {
 }
 
 .current-price {
-  color: #e60000;
+  color:#474747;
 }
 
 .original-price {
-  color: #888;
+  color: #CCCCCC;
   text-decoration: line-through;
 }
 
@@ -119,7 +120,7 @@ body {
   width: 4rem;
   height: 4rem;
   border: 1px solid #ccc;
-  border-radius: 0.5rem;
+  border-radius: 2rem;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -128,15 +129,15 @@ body {
 }
 
 .size-option.selected, .color-option.selected {
-  border-color: #000;
+  color: #C92071;
 }
 
 .buy-button {
-  background-color: #ffcc00;
-  color: #000;
+  background-color: #FFB31F;
+  color:#F5F5F5;
   font-size: 2rem;
   padding: 1rem 2rem;
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   cursor: pointer;
 }
