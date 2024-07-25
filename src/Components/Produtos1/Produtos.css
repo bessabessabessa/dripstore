@@ -1,0 +1,50 @@
+.section-produtos {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color:aqua;
+    font-family: Inter;
+}
+
+.produtosGeral {
+    width: 90rem;
+    height: 80%;
+    border: 1px solid;
+    
+}
+
+.paragrafo1P {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.paragrafoEmAlta {
+    color: var(--dark-gray-2);
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.047rem;
+    line-height: 2.375rem;
+}
+
+#linkVerTodosP {
+    color: var(--primary);
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 0.047rem;
+    line-height: 2.125rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cardsProdutosAlta {
+    display: flex;
+}
+
+.cardP1 {
+    
+}
+
+
+
+

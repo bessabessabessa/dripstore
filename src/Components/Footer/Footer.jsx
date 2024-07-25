@@ -10,7 +10,7 @@ export default function Footer () {
     <>
     <section className="section-footer">
       <div className="footer">
-        <div className="footer1">
+        <div>
           <div className="footerDigital">
             <img src={LogoWhite} alt="" />
             <p id="paragrafoDigital">Lorem ipsum dolor sit amet, consectetur<br />adipiscing elit, sed do eiusmod tempor<br />incididunt ut labore et dolore.</p>

@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     font-family: Inter;
-    background-color: var(--light-gray-3);
+    background-color: #F9F8FE;
     
 }
 
@@ -105,7 +105,7 @@
     align-items: center;
     flex-direction: column;
     font-family: Inter;
-    background-color: var(--light-gray-3);
+    background-color: #F9F8FE;
     
 }
 

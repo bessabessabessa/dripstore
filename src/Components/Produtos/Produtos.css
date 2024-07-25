@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
 .produtos {
     font-family: "Inter", sans-serif;
     background-color: #F9F8FE;
@@ -9,7 +7,7 @@
 }
 
 .divGeralProdutos {
-    width: 144rem;
+    width: 90rem;
     /* padding: 0 15rem 0; */
 }
 
@@ -52,7 +50,7 @@
 }
 
 .cardProduto {
-    width: 29.2rem;
+    /* width: 29.2rem; */
     height: 43.9rem;
     display: flex;
     flex-direction: column;
@@ -60,14 +58,14 @@
 }
 
 .cardCard {
-    width: 29.2rem;
+    /* width: 29.2rem; */
     height: 32.1rem;
     background-color:white;
 }
 
 .desconto {
-    width: 9.6rem;
-    height: 3.2rem;
+    /* width: 9.6rem;
+    height: 3.2rem; */
     background-color: #E7FF86;
     color: #474747;
     margin-top: 2rem;

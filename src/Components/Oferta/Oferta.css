@@ -7,7 +7,9 @@
 .oferta {
     display: flex;
     width: 90rem;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 10rem;
+    border: 1px solid;
 }
 
 .imagensOferta1{
@@ -24,15 +26,15 @@
 }
 
 #ellipse {
-    width: 29rem;
-    height: 29rem;
+    /* width: 29rem;
+    height: 29rem; */
     margin-left: 6rem;
     margin-top: 6rem;
 }
 
 #airjordan {
-    width: 35rem;
-    height: 20.5rem;
+    /* width: 35rem;
+    height: 20.5rem; */
 }
 
 .text {

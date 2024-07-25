@@ -1,8 +1,9 @@
 // import Carrossel from "../Components/Carrossel/Carrossel";
 import Header from "../Components/Header/Header";
 import Oferta from "../Components/Oferta/Oferta";
-import Footer from "../Components/Footer/Footer";
-import Produtos from "../Components/Produtos/Produtos";
+// import Footer from "../Components/Footer/Footer";
+// import Produtos from "../Components/Produtos/Produtos";
+import Produtos from "../Components/Produtos1/Produtos"
 import Destaque from "../Components/Destaque1/Destaque"
 
 
@@ -14,9 +15,10 @@ function HomePage() {
                 <Header/>
                 {/* <Carrossel/> */}
                 <Destaque/>
+                {/* <Produtos /> */}
                 <Produtos />
                 <Oferta/>
-                <Footer/>
+                {/* <Footer/> */}
             </div>
         </>
     )

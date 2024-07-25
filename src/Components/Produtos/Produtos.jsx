@@ -1,142 +1,141 @@
-import React from "react";
-import './Produtos.css'
+// import './Produtos.css'
 import Line from "../../assets/Produtos/Line.svg"
 import Preco from "../../assets/Produtos/preco.png"
 import cardTenis from "../../assets/Produtos/tenis.png"
 
-const Produtos = () => {
+export default function Produtos () {
     return (
-        <section class="produtos">
-            <div class="divGeralProdutos">
-                <div class="div1Produtos">
+        <section className="produtos">
+            <div className="divGeralProdutos">
+                <div className="div1Produtos">
                     <h3>Produtos em alta</h3>
                     <a href="#"><p>Ver todos <img src={Line} alt="" /></p></a>
                 </div>
-                <div class="div2Produtos">
-                    <div class="cardProduto">
-                        <div class="cardCard">
-                            <div class="desconto">
+                <div className="div2Produtos">
+                    <div className="cardProduto">
+                        <div className="cardCard">
+                            <div className="desconto">
                                 <p>30% OFF</p>
                             </div>
-                            <div class="tenisTenis">
+                            <div className="tenisTenis">
                                 <img src={cardTenis} alt="" />
                             </div>
                         </div>
-                        <p class="pTenis">Tênis</p>
-                        <h4 class="h4Tenis">K-Swiss V8 - Masculino</h4>
-                        <div class="precoTenis">
+                        <p className="pTenis">Tênis</p>
+                        <h4 className="h4Tenis">K-Swiss V8 - Masculino</h4>
+                        <div className="precoTenis">
                             <img src={Preco} alt="" />
                             <p>$100</p>
                         </div>
                     </div>
-                    <div class="cardProduto">
-                        <div class="cardCard">
-                            <div class="desconto">
+                    <div className="cardProduto">
+                        <div className="cardCard">
+                            <div className="desconto">
                                 <p>30% OFF</p>
                             </div>
-                            <div class="tenisTenis">
+                            <div className="tenisTenis">
                                 <img src={cardTenis} alt="" />
                             </div>
                         </div>
-                        <p class="pTenis">Tênis</p>
-                        <h4 class="h4Tenis">K-Swiss V8 - Masculino</h4>
-                        <div class="precoTenis">
+                        <p className="pTenis">Tênis</p>
+                        <h4 className="h4Tenis">K-Swiss V8 - Masculino</h4>
+                        <div className="precoTenis">
                             <img src={Preco} alt="" />
                             <p>$100</p>
                         </div>
                     </div>
-                    <div class="cardProduto">
-                        <div class="cardCard">
-                            <div class="desconto">
+                    <div className="cardProduto">
+                        <div className="cardCard">
+                            <div className="desconto">
                                 <p>30% OFF</p>
                             </div>
-                            <div class="tenisTenis">
+                            <div className="tenisTenis">
                                 <img src={cardTenis} alt="" />
                             </div>
                         </div>
-                        <p class="pTenis">Tênis</p>
-                        <h4 class="h4Tenis">K-Swiss V8 - Masculino</h4>
-                        <div class="precoTenis">
+                        <p className="pTenis">Tênis</p>
+                        <h4 className="h4Tenis">K-Swiss V8 - Masculino</h4>
+                        <div className="precoTenis">
                             <img src={Preco} alt="" />
                             <p>$100</p>
                         </div>
                     </div>
-                    <div class="cardProduto">
-                        <div class="cardCard">
-                            <div class="desconto">
+                    <div className="cardProduto">
+                        <div className="cardCard">
+                            <div className="desconto">
                                 <p>30% OFF</p>
                             </div>
-                            <div class="tenisTenis">
+                            <div className="tenisTenis">
                                 <img src={cardTenis} alt="" />
                             </div>
                         </div>
-                        <p class="pTenis">Tênis</p>
-                        <h4 class="h4Tenis">K-Swiss V8 - Masculino</h4>
-                        <div class="precoTenis">
+                        <p className="pTenis">Tênis</p>
+                        <h4 className="h4Tenis">K-Swiss V8 - Masculino</h4>
+                        <div className="precoTenis">
                             <img src={Preco} alt="" />
                             <p>$100</p>
                         </div>
                     </div>
-                    <div class="cardProduto">
-                        <div class="cardCard">
-                            <div class="desconto">
+                    <div className="cardProduto">
+                        <div className="cardCard">
+                            <div className="desconto">
                                 <p>30% OFF</p>
                             </div>
-                            <div class="tenisTenis">
+                            <div className="tenisTenis">
                                 <img src={cardTenis} alt="" />
                             </div>
                         </div>
-                        <p class="pTenis">Tênis</p>
-                        <h4 class="h4Tenis">K-Swiss V8 - Masculino</h4>
-                        <div class="precoTenis">
+                        <p className="pTenis">Tênis</p>
+                        <h4 className="h4Tenis">K-Swiss V8 - Masculino</h4>
+                        <div className="precoTenis">
                             <img src={Preco} alt="" />
                             <p>$100</p>
                         </div>
                     </div>
-                    <div class="cardProduto">
-                        <div class="cardCard">
-                            <div class="desconto">
+                    <div className="cardProduto">
+                        <div className="cardCard">
+                            <div className="desconto">
                                 <p>30% OFF</p>
                             </div>
-                            <div class="tenisTenis">
+                            <div className="tenisTenis">
                                 <img src={cardTenis} alt="" />
                             </div>
                         </div>
-                        <p class="pTenis">Tênis</p>
-                        <h4 class="h4Tenis">K-Swiss V8 - Masculino</h4>
-                        <div class="precoTenis">
+                        <p className="pTenis">Tênis</p>
+                        <h4 className="h4Tenis">K-Swiss V8 - Masculino</h4>
+                        <div className="precoTenis">
                             <img src={Preco} alt="" />
                             <p>$100</p>
                         </div>
                     </div>
-                    <div class="cardProduto">
-                        <div class="cardCard">
-                            <div class="desconto">
+                    <div className="cardProduto">
+                        <div className="cardCard">
+                            <div className="desconto">
                                 <p>30% OFF</p>
                             </div>
-                            <div class="tenisTenis">
+                            <div className="tenisTenis">
                                 <img src={cardTenis} alt="" />
                             </div>
                         </div>
-                        <p class="pTenis">Tênis</p>
-                        <h4 class="h4Tenis">K-Swiss V8 - Masculino</h4>
-                        <div class="precoTenis">
+                        <p className="pTenis">Tênis</p>
+                        <h4 className="h4Tenis">K-Swiss V8 - Masculino</h4>
+                        <div className="precoTenis">
                             <img src={Preco} alt="" />
                             <p>$100</p>
                         </div>
                     </div>
-                    <div class="cardProduto">
-                        <div class="cardCard">
-                            <div class="desconto">
+                    <div className="cardProduto">
+                        <div className="cardCard">
+                            <div className="desconto">
                                 <p>30% OFF</p>
                             </div>
-                            <div class="tenisTenis">
+                            <div className="tenisTenis">
                                 <img src={cardTenis} alt="" />
                             </div>
                         </div>
-                        <p class="pTenis">Tênis</p>
-                        <h4 class="h4Tenis">K-Swiss V8 - Masculino</h4>
-                        <div class="precoTenis">
+                        <p className="pTenis">Tênis</p>
+                        <h4 className="h4Tenis">K-Swiss V8 - Masculino</h4>
+                        <div className="precoTenis">
                             <img src={Preco} alt="" />
                             <p>$100</p>
                         </div>
@@ -146,4 +145,3 @@ const Produtos = () => {
         </section>
     )
 }
-export default Produtos;
