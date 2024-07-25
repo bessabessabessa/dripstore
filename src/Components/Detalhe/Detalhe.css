@@ -1,6 +1,6 @@
-/* :root {
+  /* :root {
   font-size: 62.5%;
-} */
+}    */
 
 body {
   font-family: Inter, sans-serif;
@@ -9,11 +9,11 @@ body {
 }
 
 .container {
+  /* width: 100px; */
   padding: 2rem;
 }
 
 .breadcrumb {
-  /* width: 90rem; */
   font-size: 1.4rem;
   margin-bottom: 2rem;
 }
@@ -24,6 +24,7 @@ body {
 }
 
 .product {
+  /* width: 90rem; */
   display: flex;
   gap: 2rem;
 }
@@ -44,20 +45,23 @@ body {
   border-radius: 1rem;
 }
 
-.tamanho {
-  border: solid rebeccapurple;
-  width: 117.81rem;
+ .tamanho {
+  display: flex;
+  align-items: center;
+  border: 2px solid #C92071;
+  background-color: #E2E3FF;
+  width: 117.81px ;
   height: 96px;
   top: 865px;
   left: 100px;
   border-radius: 4px;
-}
+} 
 
 .thumbnails {
   display: flex;
   align-items: center ;
-  gap: 1rem;
-  margin-top: 0.5rem;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
 .thumbnails img {
@@ -65,7 +69,7 @@ body {
   height: 5rem;
   border-radius: 0.5rem;
   cursor: pointer;
-}
+} 
 
 .details {
   width: 90rem;
