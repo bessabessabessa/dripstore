@@ -7,9 +7,10 @@ import Img3 from "../../assets/Carrossel/image3.png"
 import Img4 from "../../assets/Carrossel/image4.png"
 import Img5 from "../../assets/Carrossel/image5.png"
 
-export const Detalhe = () => {
+function Detalhe() {
     const [selectedSize] = useState(41);
     const [selectedColor] = useState('red');
+    
     return (
         <div className='container'>
             <nav className='breadcrumb'>
@@ -81,3 +82,5 @@ export const Detalhe = () => {
         </div>
     );
 };
+
+export default Detalhe;
