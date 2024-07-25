@@ -98,6 +98,7 @@
 }
 
 .divDestaque2 {
+    padding-top: 3rem;
     width: 100vw;
     display: flex;
     justify-content: center;

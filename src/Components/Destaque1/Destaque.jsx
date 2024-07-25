@@ -1,5 +1,4 @@
 import './Destaque.css'
-// import BotaoComprar from "../BotaoComprar/BotaoComprar"
 import CamisaStarWars from "../../assets/Destaque/camisaStar.png"
 import TenisDestaque from "../../assets/Destaque/ddd1-tenis.svg"
 import Headphones from "../../assets/Destaque/headphone.svg"
@@ -51,40 +50,40 @@ export default function Destaque() {
                 <div className="destaqueColecoes">
                     <div className="destaqueColecoes1">
                         <div className="divImagem">
-                        <img src={Camisa} className="colecoes" />
+                            <img src={Camisa} className="colecoes" />
                         </div>
                         <p className="itensDestaque">Camisetas</p>
                     </div>
 
                     <div className="destaqueColecoes1">
                         <div className="divImagem">
-                        <img src={Calça} className="colecoes" />
+                            <img src={Calça} className="colecoes" />
                         </div>
                         <p className="itensDestaque">Calças</p>
                     </div>
 
                     <div className="destaqueColecoes1">
                         <div className="divImagem">
-                        <img src={Camisa} className="colecoes" />
+                            <img src={Camisa} className="colecoes" />
                         </div>
                         <p className="itensDestaque">Bonés</p>
                     </div>
 
                     <div className="destaqueColecoes1">
                         <div className="divImagem">
-                        <img src={Headphone} className="colecoes" />
+                            <img src={Headphone} className="colecoes" />
                         </div>
                         <p className="itensDestaque">Headphones</p>
                     </div>
 
                     <div className="destaqueColecoes1">
                         <div className="divImagem">
-                        <img src={Tênis} className="colecoes" />
+                            <img src={Tênis} className="colecoes" />
                         </div>
                         <p className="itensDestaque">Tênis</p>
                     </div>
 
-                    
+
                 </div>
             </section>
         </>

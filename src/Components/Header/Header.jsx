@@ -12,7 +12,7 @@ export function Header() {
                 <div className="logo">
                 <Link to='/'><img id="logo" src={Logo} alt="" /></Link>
                 </div>
-                <div className="pesquisa">
+                <div>
                     <input type="text" id="pesquisa" placeholder="Pesquisar produtos..."></input>
                 </div>
                 <div className="cadastro">

@@ -10,15 +10,18 @@ export default function Footer () {
     <>
     <section className="section-footer">
       <div className="footer">
-        <div>
+        <div className="footer1">
           <div className="footerDigital">
             <img src={LogoWhite} alt="" />
             <p id="paragrafoDigital">Lorem ipsum dolor sit amet, consectetur<br />adipiscing elit, sed do eiusmod tempor<br />incididunt ut labore et dolore.</p>
+            <div className='icones-redes'>
             <img id="icone1" src={IconFace} alt="" />
             <img id="icone2" src={IconInta} alt="" />
             <img id="icone3" src={IconTwitter} alt="" />
+            </div>
 
           </div>
+          
           <div className="divInfos">
             <h3>Informação</h3>
             <p className="paragrafo1">Sobre Drip Store</p>

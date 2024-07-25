@@ -1,6 +1,5 @@
-import React from "react";
-import './Produtos.css'
-import BasicButtonExample from "../Dropdown/Dropdown";
+
+import './Produtos.css';
 
 function Produtos() {
     return (
@@ -9,5 +8,5 @@ function Produtos() {
             </div>
         </section>
     )
-};
+}
 export default Produtos;
