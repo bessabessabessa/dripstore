@@ -36,6 +36,11 @@ body {
   border-radius: 1rem;
 }
 
+.Cor {
+  color: #C92071;
+
+}
+
 .thumbnails {
   display: flex;
   gap: 1rem;
