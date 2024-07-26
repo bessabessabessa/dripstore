@@ -21,20 +21,20 @@ Esse projeto foi desenvolvido com:
 
 ## Como fazer rodar a aplicação 
 
-- # Clone este repositório
+## Clone este repositório
 
-- # Instale as dependências
+## Instale as dependências
 $npm install
 
-# Execute a aplicação em modo de desenvolvimento
+## Execute a aplicação em modo de desenvolvimento
 $ npm run dev
 
-# O servidor inciará na porta:3333 - acesse <http://localhost:5173>
+## O servidor inciará na porta:3333 - acesse <http://localhost:5173>
 
-# Para visualização do projeto acesse <https://drip-store-kappa.vercel.app/>
+## Para visualização do projeto acesse <https://drip-store-kappa.vercel.app/>
 
 
-# Autores
+## Autores
 - Leicam
 - Rhayssa
 - Sara
