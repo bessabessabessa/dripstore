@@ -2,7 +2,7 @@
 import Header from "../Components/Header/Header";
 import Oferta from "../Components/Oferta/Oferta";
 import Footer from "../Components/Footer/Footer";
-import Produtos from "../Components/Produtos1/Produtos"
+// import Produtos from "../Components/Produtos1/Produtos"
 // import Produtos from "../Components/Produtos/Produtos"
 import Destaque from "../Components/Destaque1/Destaque"
 
