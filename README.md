@@ -11,4 +11,4 @@ Esse projeto foi desenvolvido com:
 - CSS
 - JavaScript
 - React
-- Figma
+- Figma# drip-store
