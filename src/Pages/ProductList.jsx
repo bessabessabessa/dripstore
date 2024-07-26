@@ -1,6 +1,13 @@
+import Filtro from "../Components/AsideBar/AsideBar";
+import Footer from "../Components/Footer/Footer";
+import Header from "../Components/Header/Header";
 
 export default function PaginaDeProdutos () {
     return (
-        <h1>Produtos works!</h1>
+        <>
+        <Header />
+        <Filtro />
+        <Footer />
+        </>
     );
 }

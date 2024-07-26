@@ -1,5 +1,7 @@
+import Slides from "../Components/Carrossel1/Slide";
+
 export default function PaginaDeLogin () {
     return (
-        <h1>This page works!</h1>
+        <Slides />
     );
 }

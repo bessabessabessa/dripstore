@@ -1,4 +1,4 @@
-// import Carrossel from "../Components/Carrossel/Carrossel";
+import Carrossel from "../Components/Carrossel1/Carrossel";
 import Header from "../Components/Header/Header";
 import Oferta from "../Components/Oferta/Oferta";
 import Footer from "../Components/Footer/Footer";
@@ -13,7 +13,7 @@ function HomePage() {
         <>
             <div>
                 <Header/>
-                {/* <Carrossel/> */}
+                <Carrossel />
                 <Destaque/>
                 {/* <Produtos /> */}
                 {/* <Produtos /> */}

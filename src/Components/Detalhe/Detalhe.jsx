@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Detalhe.css';
-import Sneakers from "../../assets/Carrossel/Sneakers.png"
+import Sneakers from "../../assets/Detalhe/White-Sneakers-PNG.png"
 import Img1 from "../../assets/Carrossel/image1.png"
 import Img2 from "../../assets/Carrossel/image2.png"
 import Img3 from "../../assets/Carrossel/image3.png"
