@@ -87,7 +87,7 @@ function Detalhe() {
                                 ))}
                             </div>
                         </div>
-                        <Link to="/MeuCarrinho"><button className='buy-button'>COMPRAR</button></Link>
+                        <Link to="/ConfirmacaoDeCompra"><button className='buy-button'>COMPRAR</button></Link>
                     </div>
                 </div>
                 <div className="thumbnails">

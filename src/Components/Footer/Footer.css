@@ -83,7 +83,7 @@
 }
 
 
-.paragrafo1 {
+.paragrafo1Footer {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.625rem;
@@ -92,7 +92,17 @@
     text-decoration: none;
 }
 
-.paragrafo1:hover {
+.paragrafo2Footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625rem;
+    color: var(--white);
+    padding-bottom: 0.5rem;
+    text-decoration: none;
+}
+
+.paragrafo1Footer:hover , 
+.paragrafo2Footer:hover {
     text-decoration: underline var(--white);
 }
 

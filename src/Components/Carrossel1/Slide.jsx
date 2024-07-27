@@ -14,7 +14,7 @@ function Slides() {
                         <p className="paragrafoMOferta">Melhores ofertas personalizadas</p>
                         <h1 id="h1QueimaEstoque">Queima de<br />estoque Nike 🔥</h1>
                         <p className="paragrafoDescricaoOferta">Consequat culpa exercitation mollit nisi excepteur do<br />do tempor laboris eiusmod irure consectetur.</p>
-                        <Link to="/produtos"><button className="botaoVendoOfertas">Ver Ofertas</button></Link>
+                        <Link to="/detalhesDoProduto"><button className="botaoVendoOfertas">Ver Ofertas</button></Link>
                     </div>
 
                     <div className="divCarrosselImagens">

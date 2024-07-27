@@ -7,6 +7,7 @@ import Calça from "../../assets/Destaque/pants.svg"
 // import Boné from "../../assets/Destaque/"
 import Headphone from "../../assets/Destaque/headphones_1.svg"
 import Tênis from "../../assets/Destaque/sneakers1.svg"
+import { Link } from "react-router-dom"
 
 export default function Destaque() {
     return (
@@ -19,7 +20,7 @@ export default function Destaque() {
                             <div className="textoDestaque">
                                 <p className="paragrafoDestaque">30% OFF</p>
                                 <h3 className="h3Destaque">Novo drop Supreme</h3>
-                                <a href="#" className="botaoComprar">Comprar</a>
+                                <Link to="/produtos" className="botaoComprar">Comprar</Link>
                             </div>
                             <img src={CamisaStarWars} alt="" />
                         </div>
@@ -27,7 +28,7 @@ export default function Destaque() {
                             <div className="textoDestaque">
                                 <p className="paragrafoDestaque">30% OFF</p>
                                 <h3 className="h3Destaque">Coleção Adidas</h3>
-                                <a href="#" className="botaoComprar">Comprar</a>
+                                <Link to="/produtos" className="botaoComprar">Comprar</Link>
                             </div>
                             <img src={TenisDestaque} alt="" />
                         </div>
@@ -35,7 +36,7 @@ export default function Destaque() {
                             <div className="textoDestaque">
                                 <p className="paragrafoDestaque">30% OFF</p>
                                 <h3 className="h3Destaque">Novo Beats Bass</h3>
-                                <a href="#" className="botaoComprar">Comprar</a>
+                                <Link to="/produtos" className="botaoComprar">Comprar</Link>
                             </div>
                             <img src={Headphones} alt="" />
                         </div>
@@ -50,35 +51,35 @@ export default function Destaque() {
                 <div className="destaqueColecoes">
                     <div className="destaqueColecoes1">
                         <div className="divImagem">
-                            <img src={Camisa} className="colecoes" />
+                            <Link to="/produtos"><img src={Camisa} className="colecoes" /></Link>
                         </div>
                         <p className="itensDestaque">Camisetas</p>
                     </div>
 
                     <div className="destaqueColecoes1">
                         <div className="divImagem">
-                            <img src={Calça} className="colecoes" />
+                            <Link to="/produtos"><img src={Calça} className="colecoes" /></Link>
                         </div>
                         <p className="itensDestaque">Calças</p>
                     </div>
 
                     <div className="destaqueColecoes1">
                         <div className="divImagem">
-                            <img src={Calça} className="colecoes" />
+                            <Link to="/produtos"><img src={Calça} className="colecoes" /></Link>
                         </div>
                         <p className="itensDestaque">Bonés</p>
                     </div>
 
                     <div className="destaqueColecoes1">
                         <div className="divImagem">
-                            <img src={Headphone} className="colecoes" />
+                            <Link to="/produtos"><img src={Headphone} className="colecoes" /></Link>
                         </div>
                         <p className="itensDestaque">Headphones</p>
                     </div>
 
                     <div className="destaqueColecoes1">
                         <div className="divImagem">
-                            <img src={Tênis} className="colecoes" />
+                            <Link to="/produtos"><img src={Tênis} className="colecoes" /></Link>
                         </div>
                         <p className="itensDestaque">Tênis</p>
                     </div>
