@@ -28,15 +28,17 @@ $ npm run dev
 
 4 - O servidor inciará na porta:3333 - acesse <http://localhost:5173>
 
-## Para visualização do projeto acesse <https://drip-store-kappa.vercel.app/>
+Para visualização do projeto acesse <https://drip-store-kappa.vercel.app/>
 
+##
 
 ## Iniciando o projeto
 No início do projeto não estabelecemos regras para que os nossos códigos ficassem o mais "parecidos", por exemplo, não havíamos acordado se faríamos com medida rem ou px, nem havíamos criado um "esqueleto" para que todos começassem a partir desse esboço e tivemos dificuldades para padronizar isso depois, já que muitos estavam criando com o que se sentia mais familiarizado. Conseguimos resolver os conflitos após o merge inicial, determinando uma medida e um tamanho de tela padrão, além de também decretarmos que todos deveriam fazer um pull do esqueleto criado pelo então líder Alex. Escolhemos dividir as tarefas por componentes e não por páginas, ficando, dessa forma, cada integrante responsável pela criação de um e após finalizar passar para o próximo.
 
 ## Organização do projeto 
 Após definirmos um "esqueleto" padrão para o projeto, começamos a organizar componentes, imagens e páginas em suas respectivas pastas. Dessa forma ficou mais fácil encontrarmos algo caso fosse necessário. A organização ficou da seguinte forma: 
-INSERIR FOTO
+
+<img src="/public/organizacao-pastas.png">
 
 ## Inicialmente teremos três páginas funcionando. São elas: 
 - Home
