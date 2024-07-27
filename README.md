@@ -38,7 +38,7 @@ No início do projeto não estabelecemos regras para que os nossos códigos fica
 ## Organização do projeto 
 Após definirmos um "esqueleto" padrão para o projeto, começamos a organizar componentes, imagens e páginas em suas respectivas pastas. Dessa forma ficou mais fácil encontrarmos algo caso fosse necessário. A organização ficou da seguinte forma: 
 
-<img src="../../../public/organizacao-pastas.png">
+<img src="public/organizacao-pastas.png">
 
 ## Inicialmente teremos três páginas funcionando. São elas: 
 - Home
